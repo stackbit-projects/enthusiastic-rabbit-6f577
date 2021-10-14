@@ -13,7 +13,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                heading: ['"Festive"', 'sans-serif']
+                festive: ['"Festive"', 'sans-serif']
             },
             colors: {
                 // primary: '#207bea'
