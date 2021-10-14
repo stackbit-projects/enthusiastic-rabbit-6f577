@@ -45,6 +45,7 @@
         "VideoBlock": "@stackbit/components/components/VideoBlock",
         "PageLayout": "@stackbit/components/layouts/PageLayout",
         "PostLayout": "@stackbit/components/layouts/PostLayout",
-        "ExampleSection": "../src/components/ExampleSection.js"
+        "ExampleSection": "../src/components/ExampleSection.js",
+            "Badge": "../src/components/Badge.js",
     }
 }
