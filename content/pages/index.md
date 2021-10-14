@@ -16,6 +16,7 @@ sections:
     textAlign: left
     badge:
       label: New Website
+      warning: true
     title: Hello World!
     text: >-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
