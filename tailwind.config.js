@@ -12,7 +12,9 @@ module.exports = {
     darkMode: false,
     theme: {
         extend: {
-            fontFamily: ['"Festive"', 'sans-serif'],
+            fontFamily: {
+                heading: ['"Festive"', 'sans-serif']
+            },
             colors: {
                 // primary: '#207bea'
             }
