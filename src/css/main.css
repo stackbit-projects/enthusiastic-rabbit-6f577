@@ -17,7 +17,7 @@
     }
 
     .sb-component-badge {
-        @apply border-1;
+        @apply border;
     }
 }
 
