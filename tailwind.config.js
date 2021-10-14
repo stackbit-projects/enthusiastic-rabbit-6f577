@@ -12,6 +12,7 @@ module.exports = {
     darkMode: false,
     theme: {
         extend: {
+            fontFamily
             colors: {
                 // primary: '#207bea'
             }
