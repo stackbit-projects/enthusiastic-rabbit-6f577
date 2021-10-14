@@ -1,13 +1,15 @@
 import classNames from "classnames";
 
 export default function Badge(props) {
-    const { label } = props;
+    const { label, warning } = props;
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
 
     if (!label) {
         return null;
     }
+
+    const text = warning ? `⚠️ ${label}` : label;
 
     return (
         <div
@@ -18,8 +20,9 @@ export default function Badge(props) {
                 "sb-component-badge",
                 cssClasses
             )}
+            data-sb-field-path=".label"
         >
-            HELLO - {label}
+            {text}
         </div>
     );
 }
